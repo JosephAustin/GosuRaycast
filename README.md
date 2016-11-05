@@ -9,3 +9,5 @@ Bindings to ruby would be cool too but I don't have time at the moment ;P
 
 
 Many thanks to Lode (http://lodev.org/cgtutor/index.html) for the incredible raycasting tutorials I referenced!
+
+All of the raycasting code is distributed under the MIT license, so enjoy!
