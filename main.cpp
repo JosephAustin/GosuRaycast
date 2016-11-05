@@ -21,9 +21,7 @@ public:
     Map() :
         _floor(Gosu::Image(L"./assets/floor.jpg").getData().toBitmap()),
         _carpet(Gosu::Image(L"./assets/carpet.png").getData().toBitmap()),
-        _wall(Gosu::Image(L"./assets/wall.jpg")),
-        _door(Gosu::Image(L"./assets/door.png")),
-        _exit(Gosu::Image(L"./assets/exit.jpg"))
+        _wall(Gosu::Image(L"./assets/wall.jpg"))
 
     {}
     
@@ -134,7 +132,7 @@ private:
         1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
     };
     
-    Gosu::Image _wall, _door, _exit;
+    Gosu::Image _wall;
     Gosu::Bitmap _floor, _carpet;
 };
 
