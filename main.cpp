@@ -73,7 +73,7 @@ public:
             if(_map[xy] == 3) {
                 std::pair<unsigned, unsigned> coord = _indexToCoord(xy);
                 Gosu::RayCaster::Sprite sprite;
-                sprite.texture = new Gosu::Image(L"./assets/megaman.png");
+                sprite.texture = new Gosu::Image(L"./assets/baddie.png");
                 sprite.x = coord.first;
                 sprite.y = coord.second;
                 result.push_back(sprite);
